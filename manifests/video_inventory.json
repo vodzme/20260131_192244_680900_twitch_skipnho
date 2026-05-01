@@ -1,0 +1,91 @@
+{
+    "folder": "20260131_192244_680900_twitch_skipnho",
+    "generated_at": "2026-04-27T14:15:00+00:00",
+    "source_video": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 60,
+        "duration_seconds": 24756.332667,
+        "size_bytes": 19805816168,
+        "video_codec": "h264",
+        "audio_codec": "aac",
+        "bitrate_kbps": 6400,
+        "format_name": "mpegts"
+    },
+    "video_output": {
+        "id": 13,
+        "uuid": null,
+        "format": "ts",
+        "totals": {
+            "size_bytes": 29497698012,
+            "duration_seconds": 36890.598001
+        },
+        "summary": {
+            "descriptors_count": 2,
+            "valid_segments_count": 2,
+            "invalid_segments_count": 0,
+            "partial": false
+        }
+    },
+    "segments": [
+        {
+            "attempt": 1,
+            "attempt_id": 15,
+            "file_name": "seg_0001.ts",
+            "relative_path": "2026_01_31_192241815_twitch_skipnho/seg_0001.ts",
+            "absolute_path": "/var/www/html/recorders/2026_01_31_192241815_twitch_skipnho/seg_0001.ts",
+            "size_bytes": 19805816168,
+            "format": "ts",
+            "duration_seconds": 24756.332667,
+            "validation": {
+                "ffprobe": {
+                    "streams_total": 3,
+                    "format_name": "mpegts",
+                    "duration": 24756.332667,
+                    "size": 19805816168
+                }
+            }
+        },
+        {
+            "attempt": 2,
+            "attempt_id": 16,
+            "file_name": "seg_0002.ts",
+            "relative_path": "2026_01_31_192241815_twitch_skipnho/seg_0002.ts",
+            "absolute_path": "/var/www/html/recorders/2026_01_31_192241815_twitch_skipnho/seg_0002.ts",
+            "size_bytes": 9691881844,
+            "format": "ts",
+            "duration_seconds": 12134.265334,
+            "validation": {
+                "ffprobe": {
+                    "streams_total": 3,
+                    "format_name": "mpegts",
+                    "duration": 12134.265334,
+                    "size": 9691881844
+                }
+            }
+        }
+    ],
+    "profiles": {
+        "base_quality": "1080p",
+        "base_slug": "1080",
+        "profiles": [
+            {
+                "quality": "1080p",
+                "slug": "1080",
+                "width": 1920,
+                "height": 1080
+            }
+        ]
+    },
+    "contract": {
+        "inputs": {
+            "video_segments_count": 2,
+            "video_output_id": 13,
+            "input_signature": "ce9f1f15c6bcc4a63bae034682a9f8f6d4dfce260cdf8878a157fe73d6695a0f"
+        },
+        "validations": {
+            "totals_size_bytes": 29497698012,
+            "totals_duration_seconds": 36890.598001
+        }
+    }
+}
